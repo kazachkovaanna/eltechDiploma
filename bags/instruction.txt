@@ -1,0 +1,7 @@
+create workspace
+copy slam-constructor as lib
+catkin_make
+roslaunch slam-constructor jkdf_mit_eljf.launch path:=path_to_data_set
+EROOS in conosle or empty window
+
+
